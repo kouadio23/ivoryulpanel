@@ -1,0 +1,59 @@
+0000000000000000000000000000000000000000 690832cf29b182faedc1574656b30b1a5085f20d kouadio23 <83689222+kouadio23@users.noreply.github.com> 1673379472 -0700	clone: from https://gitlab.com/razorbackusa/ul-panel-app.git
+690832cf29b182faedc1574656b30b1a5085f20d 690832cf29b182faedc1574656b30b1a5085f20d Kouadio Kouao <kouaokouadio@gmail.com> 1675118559 -0700	checkout: moving from main to kouadioibex
+690832cf29b182faedc1574656b30b1a5085f20d 97337741169e5faab69889e122928730085bd4a6 Kouadio Kouao <kouaokouadio@gmail.com> 1675178129 -0700	commit: update database
+97337741169e5faab69889e122928730085bd4a6 3bc2f495727725551618eb1318915cc2bb379a90 Kouadio Kouao <kouaokouadio@gmail.com> 1675178175 -0700	commit: database
+3bc2f495727725551618eb1318915cc2bb379a90 709e625c3545b058d93a9f66c20a900fa063b9ea Kouadio Kouao <kouaokouadio@gmail.com> 1675285702 -0700	commit: data
+709e625c3545b058d93a9f66c20a900fa063b9ea 709e625c3545b058d93a9f66c20a900fa063b9ea Kouadio Kouao <kouaokouadio@gmail.com> 1675295501 -0700	reset: moving to HEAD
+709e625c3545b058d93a9f66c20a900fa063b9ea 690832cf29b182faedc1574656b30b1a5085f20d Kouadio Kouao <kouaokouadio@gmail.com> 1675295501 -0700	checkout: moving from kouadioibex to dev
+690832cf29b182faedc1574656b30b1a5085f20d 9f4a05e8eed49255b7213af3d3eb0c89bc531bb9 Kouadio Kouao <kouaokouadio@gmail.com> 1675295820 -0700	commit: dev
+9f4a05e8eed49255b7213af3d3eb0c89bc531bb9 f49007666bbc8f1e7d48a62be7666fb1155cd597 Kouadio Kouao <kouaokouadio@gmail.com> 1675295833 -0700	pull: Merge made by the 'ort' strategy.
+f49007666bbc8f1e7d48a62be7666fb1155cd597 ee936ab57edb049a9b007a281e60c38c34a73c10 Kouadio Kouao <kouaokouadio@gmail.com> 1675298342 -0700	commit: link corection
+ee936ab57edb049a9b007a281e60c38c34a73c10 709e625c3545b058d93a9f66c20a900fa063b9ea Kouadio Kouao <kouaokouadio@gmail.com> 1675353713 -0700	checkout: moving from dev to kouadioibex
+709e625c3545b058d93a9f66c20a900fa063b9ea ee936ab57edb049a9b007a281e60c38c34a73c10 Kouadio Kouao <kouaokouadio@gmail.com> 1675353768 -0700	checkout: moving from kouadioibex to dev
+ee936ab57edb049a9b007a281e60c38c34a73c10 ee936ab57edb049a9b007a281e60c38c34a73c10 Kouadio Kouao <kouaokouadio@gmail.com> 1676066676 -0700	checkout: moving from dev to dev-kouao
+ee936ab57edb049a9b007a281e60c38c34a73c10 be8771dd813d1e5e25c4c1071545cf3a649df344 Kouadio Kouao <kouaokouadio@gmail.com> 1676066716 -0700	commit: css- token
+be8771dd813d1e5e25c4c1071545cf3a649df344 be8771dd813d1e5e25c4c1071545cf3a649df344 Kouadio Kouao <kouaokouadio@gmail.com> 1676335610 -0700	checkout: moving from dev-kouao to dev-server-side-token
+be8771dd813d1e5e25c4c1071545cf3a649df344 53a3b2e419157cb2f77f321dde3a62abf8fc1454 Kouadio Kouao <kouaokouadio@gmail.com> 1676335672 -0700	commit: code incclude serverside token
+53a3b2e419157cb2f77f321dde3a62abf8fc1454 53a3b2e419157cb2f77f321dde3a62abf8fc1454 Kouadio Kouao <kouaokouadio@gmail.com> 1676479390 -0700	checkout: moving from dev-server-side-token to dev-account-creation-css-review
+53a3b2e419157cb2f77f321dde3a62abf8fc1454 0ebb0d333c2ea738decc1d396c5f560265659ee0 Kouadio Kouao <kouaokouadio@gmail.com> 1676479414 -0700	commit: account-creation-css
+0ebb0d333c2ea738decc1d396c5f560265659ee0 ee936ab57edb049a9b007a281e60c38c34a73c10 Kouadio Kouao <kouaokouadio@gmail.com> 1676503018 -0700	checkout: moving from dev-account-creation-css-review to dev
+ee936ab57edb049a9b007a281e60c38c34a73c10 e2823bb84de026e2d0a179f88f3610f140bb899e Kouadio Kouao <kouaokouadio@gmail.com> 1676503037 -0700	pull: Fast-forward
+e2823bb84de026e2d0a179f88f3610f140bb899e 0ebb0d333c2ea738decc1d396c5f560265659ee0 Kouadio Kouao <kouaokouadio@gmail.com> 1676503093 -0700	checkout: moving from dev to dev-account-creation-css-review
+0ebb0d333c2ea738decc1d396c5f560265659ee0 e2823bb84de026e2d0a179f88f3610f140bb899e Kouadio Kouao <kouaokouadio@gmail.com> 1676503111 -0700	rebase (start): checkout dev
+e2823bb84de026e2d0a179f88f3610f140bb899e 0ebb0d333c2ea738decc1d396c5f560265659ee0 Kouadio Kouao <kouaokouadio@gmail.com> 1676504267 -0700	rebase (abort): updating HEAD
+0ebb0d333c2ea738decc1d396c5f560265659ee0 e2823bb84de026e2d0a179f88f3610f140bb899e Kouadio Kouao <kouaokouadio@gmail.com> 1676504654 -0700	checkout: moving from dev-account-creation-css-review to dev
+e2823bb84de026e2d0a179f88f3610f140bb899e e2823bb84de026e2d0a179f88f3610f140bb899e Kouadio Kouao <kouaokouadio@gmail.com> 1676506218 -0700	checkout: moving from dev to dev-kouadio
+e2823bb84de026e2d0a179f88f3610f140bb899e e2823bb84de026e2d0a179f88f3610f140bb899e Kouadio Kouao <kouaokouadio@gmail.com> 1676506500 -0700	checkout: moving from dev-kouadio to dev
+e2823bb84de026e2d0a179f88f3610f140bb899e 5558494c413e09f05b21a231c26c2d89f153a8bb Kouadio Kouao <kouaokouadio@gmail.com> 1676506656 -0700	pull: Fast-forward
+5558494c413e09f05b21a231c26c2d89f153a8bb 5558494c413e09f05b21a231c26c2d89f153a8bb Kouadio Kouao <kouaokouadio@gmail.com> 1676506787 -0700	checkout: moving from dev to dev
+5558494c413e09f05b21a231c26c2d89f153a8bb e2823bb84de026e2d0a179f88f3610f140bb899e Kouadio Kouao <kouaokouadio@gmail.com> 1676506800 -0700	checkout: moving from dev to dev-kouadio
+e2823bb84de026e2d0a179f88f3610f140bb899e e2823bb84de026e2d0a179f88f3610f140bb899e Kouadio Kouao <kouaokouadio@gmail.com> 1677018317 -0700	checkout: moving from dev-kouadio to dev--CSS-HTML-UPDATE
+e2823bb84de026e2d0a179f88f3610f140bb899e 04b460d990c1f19a818be06d181cca938d86bb6d Kouadio Kouao <kouaokouadio@gmail.com> 1677018327 -0700	commit: CSS-HTML-UPDATE
+04b460d990c1f19a818be06d181cca938d86bb6d 8a6772b03ba14c3b47c11f87cc7b786b4076808a Kouadio Kouao <kouaokouadio@gmail.com> 1677019141 -0700	commit: token-login-function
+8a6772b03ba14c3b47c11f87cc7b786b4076808a 8a6772b03ba14c3b47c11f87cc7b786b4076808a Kouadio Kouao <kouaokouadio@gmail.com> 1677019275 -0700	checkout: moving from dev--CSS-HTML-UPDATE to dev-token-login-function
+8a6772b03ba14c3b47c11f87cc7b786b4076808a cccf5074302d6d9fdca1896b271dbb5cc2036a66 Kouadio Kouao <kouaokouadio@gmail.com> 1677019282 -0700	commit: token-login-function
+cccf5074302d6d9fdca1896b271dbb5cc2036a66 cccf5074302d6d9fdca1896b271dbb5cc2036a66 Kouadio Kouao <kouaokouadio@gmail.com> 1677110564 -0700	checkout: moving from dev-token-login-function to dev-token-signin
+cccf5074302d6d9fdca1896b271dbb5cc2036a66 281a1f71831effd830b35ecac013cfbba01cc291 Kouadio Kouao <kouaokouadio@gmail.com> 1677110582 -0700	commit: dev-token-signin
+281a1f71831effd830b35ecac013cfbba01cc291 281a1f71831effd830b35ecac013cfbba01cc291 Kouadio Kouao <kouaokouadio@gmail.com> 1678671878 -0600	checkout: moving from dev-token-signin to token-login-function
+281a1f71831effd830b35ecac013cfbba01cc291 8ce860a2a3ffe311b0e7b98e950eb40b5b895c4a Kouadio Kouao <kouaokouadio@gmail.com> 1678671925 -0600	commit: token update in the login function
+8ce860a2a3ffe311b0e7b98e950eb40b5b895c4a 8ce860a2a3ffe311b0e7b98e950eb40b5b895c4a Kouadio Kouao <kouaokouadio@gmail.com> 1678672205 -0600	checkout: moving from token-login-function to dev-tokenUpdate-login-function
+8ce860a2a3ffe311b0e7b98e950eb40b5b895c4a 96aef002714965b6f2c4df9dfb4a3b7fa90e6860 Kouadio Kouao <kouaokouadio@gmail.com> 1678672352 -0600	commit: token update login function
+96aef002714965b6f2c4df9dfb4a3b7fa90e6860 96aef002714965b6f2c4df9dfb4a3b7fa90e6860 Kouadio Kouao <kouaokouadio@gmail.com> 1678985200 -0600	checkout: moving from dev-tokenUpdate-login-function to dev-g-recaptcha
+96aef002714965b6f2c4df9dfb4a3b7fa90e6860 0b4b6a1551d9302ce53daf9f3e5bd7670513e486 Kouadio Kouao <kouaokouadio@gmail.com> 1678985339 -0600	commit: g-recaptchaupdate
+0b4b6a1551d9302ce53daf9f3e5bd7670513e486 0b4b6a1551d9302ce53daf9f3e5bd7670513e486 Kouadio Kouao <kouaokouadio@gmail.com> 1678987961 -0600	checkout: moving from dev-g-recaptcha to dev-sso-google
+0b4b6a1551d9302ce53daf9f3e5bd7670513e486 a03c596e7defa75859cc243ab79797b8bf0b5d6b Kouadio Kouao <kouaokouadio@gmail.com> 1678988016 -0600	commit: sso google and client secret
+a03c596e7defa75859cc243ab79797b8bf0b5d6b a03c596e7defa75859cc243ab79797b8bf0b5d6b Kouadio Kouao <kouaokouadio@gmail.com> 1679522041 -0600	checkout: moving from dev-sso-google to dev-checklogin-update
+a03c596e7defa75859cc243ab79797b8bf0b5d6b 1c1b7c24db323f6f83720f87a31d8d9114c29291 Kouadio Kouao <kouaokouadio@gmail.com> 1679522243 -0600	commit: update checklogin
+1c1b7c24db323f6f83720f87a31d8d9114c29291 1c1b7c24db323f6f83720f87a31d8d9114c29291 Kouadio Kouao <kouaokouadio@gmail.com> 1680037461 -0600	checkout: moving from dev-checklogin-update to dev-update-sign-in
+1c1b7c24db323f6f83720f87a31d8d9114c29291 5fc381698a78cab2f4c8fbba6ad036ffab5bced8 Kouadio Kouao <kouaokouadio@gmail.com> 1680037493 -0600	commit: update cookies to token
+5fc381698a78cab2f4c8fbba6ad036ffab5bced8 3f8473008033ae0dccce64ecfb389176edc94731 Kouadio Kouao <kouaokouadio@gmail.com> 1680198653 -0600	commit: udated tokens to users L75
+3f8473008033ae0dccce64ecfb389176edc94731 9f38c42fe8852d9470e0e206b066d8718663582d Kouadio Kouao <kouaokouadio@gmail.com> 1680200121 -0600	commit: updated insert to update
+9f38c42fe8852d9470e0e206b066d8718663582d 8b46508dc19348d9133d7692b312014bba71d827 Kouadio Kouao <kouaokouadio@gmail.com> 1680200312 -0600	commit (merge): Merge branch 'dev-update-sign-in' of https://github.com/ibex-controls/ul-panel-app into dev-update-sign-in
+8b46508dc19348d9133d7692b312014bba71d827 08bc4889c6a12862a6d8c1828e613b2bba7e6f52 Kouadio Kouao <kouaokouadio@gmail.com> 1680375252 -0600	commit: update signin and login function
+08bc4889c6a12862a6d8c1828e613b2bba7e6f52 2d8a2317865abbb9f8aac08a3befd6525cf85681 Kouadio Kouao <kouaokouadio@gmail.com> 1680561465 -0600	commit: a new update signin and login
+2d8a2317865abbb9f8aac08a3befd6525cf85681 7d20321dcdbb9845ba564340e21ed992d6efec8b Kouadio Kouao <kouaokouadio@gmail.com> 1680567650 -0600	commit: I have comment few code.
+7d20321dcdbb9845ba564340e21ed992d6efec8b 7d20321dcdbb9845ba564340e21ed992d6efec8b Kouadio Kouao <kouaokouadio@gmail.com> 1688616964 -0600	checkout: moving from dev-update-sign-in to ivoryulpanel
+7d20321dcdbb9845ba564340e21ed992d6efec8b 7d20321dcdbb9845ba564340e21ed992d6efec8b Kouadio Kouao <kouaokouadio@gmail.com> 1688617066 -0600	checkout: moving from ivoryulpanel to ivoryulpanel
+7d20321dcdbb9845ba564340e21ed992d6efec8b 7d20321dcdbb9845ba564340e21ed992d6efec8b Kouadio Kouao <kouaokouadio@gmail.com> 1688617118 -0600	checkout: moving from ivoryulpanel to dev_home_screen.php
+7d20321dcdbb9845ba564340e21ed992d6efec8b 7d20321dcdbb9845ba564340e21ed992d6efec8b Kouadio Kouao <kouaokouadio@gmail.com> 1688617411 -0600	checkout: moving from dev_home_screen.php to final-controlpanel
+7d20321dcdbb9845ba564340e21ed992d6efec8b 175d150d6265b8f171082aef03dc8de4c21c3fec Kouadio Kouao <kouaokouadio@gmail.com> 1688617896 -0600	commit: wondeful
