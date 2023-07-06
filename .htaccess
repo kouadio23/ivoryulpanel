@@ -1,0 +1,37 @@
+# Begin WordPress
+# The Directives (lines) between "BEGIN Wordpress" and "END Wordpress" are
+# dynamically generated and should only be modified via Word Press filters.
+# Any changes to the directives between these markers will be overwritten.
+RewriteEngine On 
+RewriteCond %{HTTPS} !on 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$ 
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$ 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#Alternate default index page
+
+
+
+# The following are some security related rules.
+# These make sure that no sensative files are 
+# Exposed, and making sure the user can't navigate 
+# any directories they find.
+
+# Files aren't exposed by default
+<FilesMatch ".">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Allow files ending in php, css, ico, PNG, etc
+# To add more allowed filetypes, you need to add |(.+[fileextention]$) to the regex inside the first
+# paranthesis layer (eplace[fileextention] with your file extension). 
+# For example, to add .xml to the regex, you would add the following: |(.+xml$)
+# This would make it "((.+php$)|(.+png$)|...|(.+PNG$)|(.+xml$))
+# Note: This is case senstative, which is why png and PNG are in the regex.
+<FilesMatch "((.+php$)|(.+png$)|(.+css$)|(.+js$)|(.+ico$)|(.+PNG$)|(.+html$)|(.+svg$))">
+  Order Deny,Allow
+  Allow from all
+</FilesMatch>
+
+# Prevents the user from being able to browse exposed files
+Options All -Indexes

@@ -1,36 +1,56 @@
-README
+# UL Panel App
 
-## Project Name
-UL Panel Web App for Building Electrical Safety in Cote D’ivoire.
+## Description
+This UL Panel App is to assist IBEX UL panel installers by generating the layout of their UL Panels. These generated diagrams are designed to follow the UL Standard 508A. With that being said, installers should still be certified themselves, and should doublecheck any output made by this application.
 
-## Project Description
-The UL Panel Web App is an online calculator designed to help UL Panel Shops in Cote d'Ivoire design electrical panels that adhere to the guidelines outlined in the UL Specification 508A. The app provides a user-friendly interface that allows panel designers to input all the necessary parameters required to design a UL-compliant panel. Using the UL Panel Web App, designers can select various components such as circuit breakers, transformers, switches, and other electrical devices required for their panel design. The app will automatically calculate the required electrical specifications based on the selected components and provide a detailed report that outlines the power and current requirements, component ratings, and other critical design specifications.
+## Technologies
 
-## Installation and Usage
-To use the UL Panel Web App, simply visit the website and create an account. Once logged in, you can start designing your UL-compliant electrical panel. The app will guide you through the selection of components and provide automatic calculations of electrical specifications. When you are satisfied with your design, the app will generate a detailed report outlining the design specifications and component ratings. 
+This application is built upon the three traditional frontend languages (HTML, CSS, and JS) as well as PHP and MariaDB on the backend. Additionally, we are using GitLab as our central repo service, and InMotion for hosting the code. Finally, we are using XAMPP as our local development suite.
 
-## Features
-- Component Selection: The app allows panel designers to select various components required for their panel design, such as circuit breakers, transformers, switches, and other electrical devices.
-- Automatic Calculation: The app automatically calculates the required electrical specifications based on the selected components, including power and current requirements, component ratings, and other critical design specifications.
-- Compliance Checking: The app checks the design against the UL Specification 508A guidelines to ensure that the panel complies with all relevant safety standards.
-- Design Report: The app generates a detailed report outlining the design specifications, component ratings, and other critical details required for the design.
-- User Management: The app allows for multiple user accounts with varying levels of access to the design process and report generation.
+## Installation
+Installation is fairly simple, and you should have recieved instructions from IBEX. Nonetheless, I will put a simple set up guide here. Contact your manager if you have issues.
 
-- Mobile Accessibility: The app is designed to be mobile-friendly and accessible on all devices, including desktop computers, tablets, and mobile phones.
-- Error Handling: The app provides helpful error messages and clear notifications to guide the user in case of any errors or mistakes during the design process.
+1. Install XAMPP. You can do so [here](https://www.apachefriends.org/download.html). Use all the default values during installation.
+2. Run XAMPP once you have it installed and start Apache. Then go to your web browser and navigate to localhost. You should see a generic website for XAMPP. 
+3. Now we need to clone the repo. Go to `C:/xampp/htdocs` and delete everything in this directory. 
+4. Next, open a terminal prompt in this directory. Use the following command: `git clone https://github.com/ibex-controls/ul-panel-app/ .`
 
-## Technologies Used
-- PHP
-- JavaScript
-- XAMPP
-- MySQL
-- HTML
-- CSS
+You should now be able to reload localhost (turn Apache back on if you turned it off) and see the UL Panel App. 
 
-## Contributors
-This project was developed by Kouadio Kouao.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+## Directory Contents
+Below is the directory contents as well as explanations for important files, such as source code files
+```
 
-## Acknowledgements
+│
+├─── .github/ <--- Contains github actions config files
+│
+├─── database_scripts/ <-- Holds scripts related to the database, such as original creation script
+│
+├─── Images/ <-- Holds Image assets
+│ 
+├─── Legacy_codebase/  <-- This holds the environment that the app originally had       
+│
+├─── Pages/ <-- Holds the PHP & HTML pages for the site
+│       ├─── widgets/ <-- holds mini-widgets, such as the pop-out drawer
+│       └─── dummy_data/ <-- holds files with temporary dummy data
+│
+├─── scripts/ <-- Holds Javascript files for the website
+│       ├─── js_objects/ <-- holds the Class scripts for JS classes
+│       └─── widget_scripts/ <-- holds scripts to enable page scripts, e.g. script for pop-out drawer
+│
+├─── styles/        <-- Directory to hold style.css
+│
+├─── .htaccess <-- Apache access file
+├─── index.php <-- landing page for the site
+└─── README.md <-- This file
+
+
+```
+
+## Usage
+Usage for this application is for UL Panel Contractors in order to ease their process. Here is an example:
+
+`
+A farm wants to build a grain facility. It has several motors to drive mills, conveyors and grain elevators. They hire UL panel shop Ibex Controls to design the electrical panels for the site. They tell Ibex Controls the voltage and horsepower of each motor, for example 480 Volt, 100 Horsepower. Ibex Controls opens up the UL Panel App and enters the voltages and horsepower. The UL Panel app then applies the rules found in UL Standard 508A to calculate properly sized electrical components to safely power the motors. It displays a graph of all the required component sizes and how they should be connected. The UL Panel shop technician smiles when remembering the days of doing all of this by hand.
+`
