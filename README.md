@@ -5,7 +5,7 @@ This UL Panel App is to assist IBEX UL panel installers by generating the layout
 
 ## Technologies
 
-This application is built upon the three traditional frontend languages (HTML, CSS, and JS) as well as PHP and MariaDB on the backend. Additionally, we are using GitLab as our central repo service, and InMotion for hosting the code. Finally, we are using XAMPP as our local development suite.
+This application is built upon the three traditional frontend languages (HTML, CSS, and JS) as well as PHP and MySQL on the backend. Additionally, we are using GitLab as our central repo service, and InMotion for hosting the code. Finally, we are using XAMPP as our local development suite.
 
 ## Installation
 Installation is fairly simple, and you should have recieved instructions from IBEX. Nonetheless, I will put a simple set up guide here. Contact your manager if you have issues.
@@ -13,7 +13,7 @@ Installation is fairly simple, and you should have recieved instructions from IB
 1. Install XAMPP. You can do so [here](https://www.apachefriends.org/download.html). Use all the default values during installation.
 2. Run XAMPP once you have it installed and start Apache. Then go to your web browser and navigate to localhost. You should see a generic website for XAMPP. 
 3. Now we need to clone the repo. Go to `C:/xampp/htdocs` and delete everything in this directory. 
-4. Next, open a terminal prompt in this directory. Use the following command: `git clone https://github.com/ibex-controls/ul-panel-app/ .`
+4. Next, open a terminal prompt in this directory. Use the following command: `git clone https://gitlab.com/razorbackusa/ul-panel-app.git .`
 
 You should now be able to reload localhost (turn Apache back on if you turned it off) and see the UL Panel App. 
 
@@ -21,30 +21,29 @@ You should now be able to reload localhost (turn Apache back on if you turned it
 ## Directory Contents
 Below is the directory contents as well as explanations for important files, such as source code files
 ```
-
+│   .gitignore          <-- List of files that git should ignore
+│   .gitlab-ci.yml      <-- GitLab configuration file
+│   .htaccess           <-- Specifies which page should be the landing page
+│   generate_panel.php  <-- This page generates the panel design, and displays it to the user 
+│   input.js            <-- I believe this handles changing inputs from the user
+│   motor_form.php      <-- This screen takes information from the user regarding each motor
+│   panel_form.php      <-- This is the landing page, and takes in the amount of motors and relevant information.
+│   panel_model.php     <-- This holds all the class declerations for the project
+│   README.md           <-- The file you are reading
+│   redirect_test.php   <-- I believe this is an old test file -Josh
+│   reference.xml       <-- This holds an XML table of UL 508A rules
+│   style.css           <-- The stylesheet for the website
+│   svg_style.svg       <-- The stylesheet for SVG objects on the website
+│   test_form.php       <-- I believe this is an old test file -Josh
+│   test_output.php     <-- I believe this is an old test file -Josh
 │
-├─── .github/ <--- Contains github actions config files
+├───cached_pages        <-- Directory that allows the server to hold cached diagrams, as well as a stylesheet
+│       cached_pages_01.txt
+│       style.css
 │
-├─── database_scripts/ <-- Holds scripts related to the database, such as original creation script
-│
-├─── Images/ <-- Holds Image assets
-│ 
-├─── Legacy_codebase/  <-- This holds the environment that the app originally had       
-│
-├─── Pages/ <-- Holds the PHP & HTML pages for the site
-│       ├─── widgets/ <-- holds mini-widgets, such as the pop-out drawer
-│       └─── dummy_data/ <-- holds files with temporary dummy data
-│
-├─── scripts/ <-- Holds Javascript files for the website
-│       ├─── js_objects/ <-- holds the Class scripts for JS classes
-│       └─── widget_scripts/ <-- holds scripts to enable page scripts, e.g. script for pop-out drawer
-│
-├─── styles/        <-- Directory to hold style.css
-│
-├─── .htaccess <-- Apache access file
-├─── index.php <-- landing page for the site
-└─── README.md <-- This file
-
+└───images              <-- Directory to hold image assets
+        color_scheme.PNG
+        favicon.ico
 
 ```
 

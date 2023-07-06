@@ -1,0 +1,20 @@
+<style>
+.comp_label {
+    font: bold 14px sans-serif;
+    fill:#000000;
+    dominant-baseline:middle;
+    text-anchor:middle
+    }
+
+.comp_box {
+    fill:#EEEEEE;
+    rx:15;
+    stroke:#000000
+    }
+
+.conn_line{
+    stroke:black;
+    stroke:#000000
+    }
+            
+</style>

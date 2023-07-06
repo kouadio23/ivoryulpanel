@@ -1,625 +1,75 @@
-/* This file contains the CSS for Design 2.0 webpages*/
+.cool_btn {
+    font-size:large;
+    padding:15px;
+    background-color:#00ADB4;
+    color:#303841;
+    box-shadow: 0px 5px 0px #303841;
+    margin:15px;
+    border-radius:5px;
+    font-weight: bold;
+    text-decoration:none;
+}
+.cool_btn:hover {
+    background-color:#10BDC4;
+    cursor:pointer;
+}
 
+.cool_drpdwn {
+    font-size:medium;
+    padding: 10px;
+    background-color:#faf8f8;
+    color:#303841;
+    box-shadow: 0px 5px 0px #303841;
+    margin:10px;
+    border-radius:5px;
+    border-width:2px;
+    font-weight: bold;
+    text-decoration:none;
+}
+.cool_drpdwn:hover {
+    background-color:#d9e2db;
+    cursor:pointer;
+}
 
-/* 
-    Styles that are more general, such as for the header 
-    are located here at the top
-*/
+.page_title {
+    color: #00ADB4;
+    padding:20px;
+    border-radius:4px;
+    margin:5px;
+    display:inline-block;
+}
 
-:root{
-    /* Variables */
-
-    --primary-color: #1e2225; 
-    --secondary-color: #3f4346;
-
-    --accent1-color: #FFF; 
-    --accent2-color: #535c84;
-
-    --primary-text-color: #888888;
-    --secondary-text-color: #FFF;
-
-    --header-color: #212121;
-    --background-color: #303030;
-    --tile-color: #424242;
+body {
+    background-color: #303841;
+    text-align:center;
+    margin:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
 
-a {
-    text-decoration: none;
-}
-
-.header {
-    background-color: var(--header-color) !important;
-}
-
-.header-brand {
-    color: var(--secondary-text-color) !important;
-    font-size: 25px !important;
-}
-
-.header-brand:hover {
-    transform: scale(1.1);
-    color: var(--secondary-text-color) !important;
-}
-
-.header-button {
-    font-size: 14px; /* 14px */
-    padding: 1rem 2rem;
-    margin: 0;
-    color: var(--primary-text-color);
-    cursor: pointer;
-}
-
-.header-button:hover {
-    transform: scale(1.1);
-    color: var(--secondary-text-color) !important;
-    color: blue;
-}
-
-.header-button-bigger {
-    font-size: 30px !important;
-}
-
-.header-logo {
-    height: 50px;
-}
-
-.drawer {
-    background-color: var(--tile-color);
-    color: var(--primary-text-color);
-
-}
-
-.drawer-exit-button {
-    color: var(--primary-text-color) !important;
-    background-color: transparent;
-    border: none;
-    font-size: 30px;
-    padding-bottom: 1vh;
-}
-
-.drawer-button {
-    cursor: pointer;
-    color: var(--primary-text-color);
-    display: block;
-    font-size: 25px;
-    padding: 5px 10px;
-}
-
-.drawer-button:hover {
-    transform: scale(1.05);
-    color: var(--secondary-text-color);
-}
-
-.drawer-spacer {
-    margin-top: 40px;
-}
-
-
-/* Styles specifically for the home screen */
-
-.home-screen-body {
-    background-color: var(--background-color);
-}
-
-.project-square {
-
-    background-color: var(--tile-color);
-    box-shadow: .7rem 10px 10px #111;
-
-    text-align: center;
-    margin: .7rem;
-    width: 20rem;
-    height: 15rem;
-
-    border-radius: 1rem;
-
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.project-square:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-
-}
-
-.project-screenshot {
-    margin: .25rem;
-}
-
-.project-square p {
-    color:var(--primary-text-color);
-    margin: .05rem;
-}
-
-
-/* Styles popup forms */
-.formPopup {
-    display: none;
-    position: fixed;
-    left: 45%;
-    top: 5%;
-    transform: translate(-50%, 5%);
-    border: 3px solid #999999;
-    border-radius: 10px;
-    z-index: 9;
-}
-
-.formContainer {
-    max-width: 300px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 6px;
-}
-
-.formContainer input[type=text] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 20px 0;
-    border: none;
-    background: #eee;
-    border-radius: 5px;
-}
-
-.formContainer input[type=text]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
-.formContainer .btn {
-    padding: 12px 20px;
-    border: none;
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    cursor: pointer;
-    width: 100%;
-    margin-bottom: 15px;
-    opacity: 0.8;
-}
-
-.formContainer .btn:hover{
-    transform: scale(1.2);
-}
-
-#home-screen-project-grid {
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 10px;
-    text-align: center;
-
-}
-
-#home-screen-add-icon {
-    font-size: 9rem;
-    padding: 0;
-    color: var(--primary-text-color);
-}
-
-/* Styles for workstation screen */
-
-.workstation-canvas-section {
-    padding: 0px;
-    margin: 0px;
-    height: 87vh;
-}
-
-
-.test-canvas {
-    border: 1px solid black;
-    position: absolute;
-    background-color: var(--secondary-color);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    z-index: -1;
-
-    /* Makes sure that the lines are super crisp */
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -webkit-crisp-edges;
-    image-rendering: pixelated;
-    image-rendering: crisp-edges;
-}
-
-.component {
-    width: 100px;
-    height: 200px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: -1;
-}
-
-.component-label {
-    position: absolute;
-}
-
-.fps-counter {
-    position: absolute;
-    font-size: 1rem;
-    top: 14vh;
-    left: 2vh;
-    z-index: +2;
-}
-
-
-/* Sign in page */ 
-
-.sign-in-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #303030;
-    color: #e2e2e2
-}
-.welcome{
-    grid-column: 3/4;
-    color: rgb(203, 203, 203);
-    grid-row: 3;
-    margin-left: -37px;
-}
-.ssosignin {
-    background-color: #2f2f2f;
-    border: 1px solid black;
-    font-size: 17px;
-    padding: 10px 14px;
-    width: 262px;
-    grid-column: 3 / 4;
-
-}
-.ssosignin:hover{
-    background-color: #373737;
-}
-a:link{
-    text-decoration: none;
-    
-}
-.sign-in-form {
-    padding: 8px;
-}
-.si-input{
-    text-align: center;
-    padding: 5px 20px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    margin-left: 19px;
-    background-color: #2f2f2f;
-    border: 1px solid black;
-    width: 216px;
-    
-}
-
-.si-input:focus{
-    border: 1px solid rgb(24, 67, 102);
-    outline: none;
-}
-
-.si-input::placeholder{
-    opacity: .9;
-    color:#e2e2e2
-}
-
-.sip{
-    text-align: center;
-}
-.sign-in{
-    background-color: #2a4159;
-    border: solid 1px black;
-    font-size: medium;
-    padding: 6px 30px;
-    border-radius: 8px;
-    margin-left: 70px;
-    margin-bottom: 18px;
-}
-
-.sign-in:hover{
-    background-color: rgb(39, 69, 93);
-}
-
-.sign-in-left{
-    grid-column: 2/3;
-    width: 280px;
-    grid-row: 4;
-    border: 1px solid black;
-    padding: 50px 10px;
-    justify-items: center;
-    background-color: #424242;
-    
-}
-
-.sign-in-right{
-    grid-column: 4/5;
-    grid-row: 4;
-    border: 1px solid black;
-    width: 280px;
-    padding-top: 42px;
-    background-color: #424242;
-}
-
-.grid-c{
-    display: grid;
-    column-gap: 20px;
-    grid-template-columns: 12px auto 50px 50px auto 12px;
-    justify-content: center;
-    align-content: center;
-    grid-template-rows: 15px auto auto auto auto;
-    margin-left: -195px;
-    
-}
-
-.logo{
-    grid-column: 3/4;
-    grid-row: 2;
-    padding-bottom: 20px;
-    margin-left: -25px;
-}
-
-.navbar{
-    background-color: #212121;
-    border-color: #212121;
-    border-radius: 0%;
-    padding: 10px 0px;
-
-}
-
-.nav.navbar-nav li a{
-    color: #898989;
-}
-
-.navbar-header .navbar-brand{
-    color: rgb(255, 255, 255);
-}
-
-
-/* contact_us.php styles */
-
-.contact-us-body {
-    background-color: var(--background-color);
-}
-
-.contact-us-div {
-    background-color: var(--tile-color);
-
+.input_panel {
+    background-color: #3A4750;
     border-radius: 20px;
-
-    margin: 0 auto;
-    margin-top: 100px;
-    padding: 20px;
-
+    display:inline-block;
+    margin:50px;
+    padding:50px;
+    color:#EEEEEE;
 }
 
-.contact-us-title {
-    font-size: 60px;
-    color: var(--secondary-text-color);
-    text-align: center;
+.number_input {
+    width:50px;
 }
 
-.contact-us-div label {
-    font-size: 20px;
-    color: var(--secondary-text-color);
+.count_input {
+    display:inline-block;
+    text-align:left;
+    color:#EEEEEE;
 }
 
-.contact-us-div textarea {
-    resize: vertical;
-    font-size: 18px;
+.table_title {
+    width:100%;
+    background-color: #303841;
+    padding: 5px;
+    border-radius:5px;
+    margin-top:15px;
 }
-
-.contact-us-div button {
-    display: block;
-    margin: 0 auto;
-
-    width: 150px;
-    height: 50px;
-
-    font-size: 20px;
-    background-color: var(--header-color);
-    border: none;
-    color: var(--accent1-color);
-
-}
-
-.contact-us-div input {
-    font-size: 18px;
-
-}
-
-/* complete_sign_up.php styles */
-
-.complete_sign_up-body {
-    background-color: var(--background-color);
-}
-
-.complete-registration-div {
-    background-color: var(--header-color) !important;
-    border-radius: 10px;
-    margin-top: 50px;
-}
-
-.complete-registration-title {
-    color: var(--primary-text-color);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 50px;
-}
-
-.complete-registration-label {
-    color: var(--primary-text-color);
-    font-size: 20px;
-}
-
-.complete-registration-input {
-    height: 40px;
-    font-size: 30px;
-}
-
-.complete-registration-error {
-    border-color: red;
-}
-
-.complete-registration-error-message {
-    color: red;
-}
-
-.complete-registration-sql-error {
-    color: red;
-    font-size: 30px;
-    text-align: center;
-}
-
-.complete-registration-submit-container {
-}
-
-.complete-registration-submit {
-    background-color: var(--tile-color);
-    color: var(--secondary-text-color);
-
-    border: none;
-    border-radius: 5px;
-    
-    width: 150px;
-    height: 70px;
-    font-size: 20px;
-
-    display: block;
-    margin: 0 auto;
-}
-
-.form-group {
-    margin: 20px 0;
-
-}
-
-/* account_creation.php styles */
-
-.account-creation-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #303030;
-    color: #e2e2e2
-}
-.welcome-account-creation{
-    grid-column: 3/4;
-    color: rgb(203, 203, 203);
-    grid-row: 3;
-    margin-left: -37px;
-}
-.ssosignup {
-    background-color: #2f2f2f;
-    border-width: 1px;
-    font-size: 17px;
-    padding: 10px 14px;
-    width: 262px;
-    grid-column: 3 / 4;
-}
-.ssosignup:hover{
-    background-color: #373737;
-}
-a:link{
-    text-decoration: none;
-    
-}
-form {
-    padding: 8px;
-}
-.form-input{
-    text-align: center;
-    padding: 5px 20px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    margin-left: 19px;
-    background-color: #2f2f2f;
-    border: 1px solid black
-}
-
-.form-input-input:focus{
-    border: 1px solid rgb(24, 67, 102);
-    outline: none;
-}
-
-::placeholder{
-    opacity: 1;
-    color:#e2e2e2
-}
-
-.complete-registration-error-message{
-    text-align: center;
-}
-.sign-up{
-    background-color: #2a4159;
-    border: solid 1px black;
-    font-size: medium;
-    padding: 6px 30px;
-    border-radius: 8px;
-    margin-left: 70px;
-    margin-bottom: 18px;
-}
-.sign-up:hover{
-    background-color: rgb(39, 69, 93);
-}
-.sign-up-form{
-    grid-column: 2/3;
-    width: 280px;
-    grid-row: 4;
-    border: 1px solid black;
-    padding: 50px 10px;
-    justify-items: center;
-    background-color: #424242;
-    
-}
-
-.g-recaptcha {
-  transform: scale(0.77);
-  -webkit-transform: scale(0.77);
-  transform-origin: 0 0;
-  -webkit-transform-origin: 0 0;
-}
-
-
-.grid-right-account-creation{
-    grid-column: 4/5;
-    grid-row: 4;
-    border: 1px solid black;
-    width: 280px;
-    padding-top: 42px;
-    background-color: #424242;
-}
-
-.grid-c-account-creation{
-    display: grid;
-    column-gap: 20px;
-    grid-template-columns: 12px auto 50px 50px auto 12px;
-    justify-content: center;
-    align-content: center;
-    grid-template-rows: 15px auto auto auto auto;
-    margin-left: -175px;
-    
-}
-
-
- .logo{
-    grid-column: 3/4;
-    grid-row: 2;
-    padding-bottom: 20px;
-    margin-left: -25px;
-} 
-
-.navbar{
-    background-color: #212121;
-    border-color: #212121;
-    border-radius: 0%;
-    padding: 10px 0px;
-
-}
-
-.nav.navbar-nav li a{
-    color: #898989;
-}
-
-.navbar-header .navbar-brand{
-    color: rgb(255, 255, 255);
-}
-
-
-
-
-
